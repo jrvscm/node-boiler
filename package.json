@@ -1,0 +1,19 @@
+{
+  "name": "boiler",
+  "version": "1.0.0",
+  "description": "node-projects-boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrvscm/node-boiler.git"
+  },
+  "author": "Chris Jarvis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrvscm/node-boiler/issues"
+  },
+  "homepage": "https://github.com/jrvscm/node-boiler#readme"
+}
