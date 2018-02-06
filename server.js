@@ -19,7 +19,7 @@ app.use(morgan('common'));
 app.use(cors());
 
 app.use(bodyParser.json());
-//app.use(express.static('public')); -- were deploying a react frontend to netlify.
+//app.use(express.static('public'));
 
 app.use('*', (req, res) => {
 	return res.status(404).json({message: 'Not Found'});
